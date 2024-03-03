@@ -1,0 +1,60 @@
+/* Add font style and background color to the body */
+
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif      ;
+    background: #0B8C73;
+}
+
+
+
+/* Add style to the header div */
+
+.header_div
+  {
+    background: #11C159;
+    color: azul;
+  }
+
+
+/* Add style to the header p tag: */
+
+.header_div p{
+  font-family: 'robot' , sans-serif; 
+  color: aqua;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Add style to the button */
+
+.main_div button{
+  font-family: 'robot' , sans-serif; 
+  margin-top: 30px;
+  width: 130px; 
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+/* Add style to the footer */
+
+
+.copy_right_footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   font-size: 18px;
+   background-color: blue;
+   line-height: 3;
+   color: white;
+   text-align: center;
+   text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
